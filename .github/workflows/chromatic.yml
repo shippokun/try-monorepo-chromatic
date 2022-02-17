@@ -64,5 +64,6 @@ jobs:
           # 👇 Chromatic projectToken, refer to the manage page to obtain it.
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN_VUE }}
           workingDir: ./apps/vue
+          onlyChanged: true
 
 
